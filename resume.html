@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmer's Resume</title>
+    
+    <!--Center CSS class accessed via YouTube: https://www.youtube.com/watch?app=desktop&v=Mcty9NTgY7s -->
+
+    <style type="text/css">
+        body {background-color: rgb(159, 197, 232);}
+        .homelogo {display:block;margin-left: auto;margin-right: auto;width: 3%;}
+        h1 {font-family: futura;text-align: center;font-size: 300%;}
+        h2 {font-family: futura;text-align: center;}
+        h3 {font-family: futura;text-align: center;}
+        .center {display: flex;justify-content: center;align-items: center;}
+    </style>
+
+</head>
+    <body>
+        <div id="container">
+            <!--Home Logo source: https://en.m.wikipedia.org/wiki/File:Home-icon.svg-->
+            <a href = "index.html"><img src="images/homelogo.png" class="homelogo"; height:100% style="float: left;"></a>
+            <h1>Resume</h1>
+        </div>
+        
+        <!--New HTML tag requirement: object
+        The object tag serves the purpose of embedding content on a webpage. It can be useful for embedding many types of media, although things such as images have their own dedicated tag. Based on the W3 Schools page, it seems as though the object tag is a bit dated, but it works for displaying a pdf.
+        Accessed via: https://www.geeksforgeeks.org/how-to-embed-pdf-file-using-html/
+        Explanation: https://www.w3schools.com/tags/tag_object.asp -->
+        <div class="center">
+            <object data="images/Palmer_Okai_CV.pdf" width="850px" height="1100px"></object>
+        </div>
+
+        <div>
+            <h2 class="titletext" id="about">Navigation</h2>
+            <h3 style="text-align: center;padding-bottom: 10px;"><a href="index.html">Home</a> <a href="interests.html" style="padding-left: 20px;padding-right: 20px;">Interests/Hobbies</a> <a href="education.html">Education</a></h3> 
+        </div>
+
+    </body>
+</html>

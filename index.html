@@ -1,0 +1,62 @@
+<!--This website is a auto-biographical site designed for you (or anyone who views it) to get to know me better. I have noted where I met the assignment requirements in comments-->
+<!--All images used are my own unless otherwise cited-->
+
+<!--Document structure requirement-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--metadata requirement-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmer's Biography Site</title>
+    
+    <!--Center CSS class taken from W3 Schools: https://www.w3schools.com/howto/howto_css_image_center.asp-->
+    <!--CSS requirement-->
+    <style type="text/css">
+        body {background-color: rgb(159, 197, 232);}
+        .imgcenter {display:block;margin-left: auto;margin-right: auto;width: 15%;}
+        h1 {font-family: futura;text-align: center;font-size: 300%;}
+        h2 {font-family: futura;text-align: center;}
+        p {font-family: "Segoe UI"; font-size: larger;}
+        .logo {height: 75px;}
+        .image-row {display: flex;justify-content: center;}
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <!--image requirement-->
+        <img src="images/profilepic.png" class="imgcenter"; height:100%>
+        <!--h1 requirement-->
+        <h1 class="titletext" >Palmer Okai</h1>
+    </div>
+
+    <div>
+        <!--h2 requirement-->
+        <h2 class="titletext" id="about">A Bit About Me</h2>
+        <!--paragraph requirement-->
+        <p style="text-align: justify;padding-left: 5px;padding-right: 5px;">I am a sophomore at Connecticut College majoring in Computer Science and minoring in Architectural Studies. I am also a member of the creativity pathway. I was born in Los Angeles, California, but moved to Strafford, Vermont when I was three and I have lived there ever since. I attended Hanover High School in Hanover, New Hampshire because my town is too small to have a high school. I have an older brother who is a senior at Champlain College in Burlington, Vermont. I have 4 cats of various types, and 2 golden retrievers. I hope this site allows you to get to know me better.</p>
+    </div>
+
+    <div>
+        <h2 class="titletext" id="about">Learn More About Me</h2>
+        <!--h3 requirement-->
+        <h3 style="text-align: center;"><a href="interests.html">Interests/Hobbies</a> <a href="resume.html" style="padding-left: 20px;padding-right: 20px;">Resume</a> <a href="education.html">Education</a></h3> 
+    </div>
+
+    <!--LinkedIn Logo: https://en.wikipedia.org/wiki/File:LinkedIn_icon_circle.svg-->
+    <!--GitHub Logo: https://en.wikipedia.org/wiki/GitHub-->
+    <!--YouTube Logo: https://en.m.wikipedia.org/wiki/File:Youtube_logo.png-->
+    
+    <div>
+        <h2>Additional Navigation</h2>
+        <div class="image-row">
+            <!--3 links that open in new tab requirement-->
+            <a href="https://www.linkedin.com/in/palmerokai/" target="_blank"><img src="images/linkedin.png" class="logo" style="padding: 5px;"></a>
+            <a href="https://github.com/palmerokai" target="_blank"><img src="images/github.svg" class="logo" style="padding: 5px;"></a>
+            <a href="https://www.youtube.com/channel/UCzUi9sQA-QDjttOL4jJwNsw" target="_blank"><img src="images/youtube.png" class="logo" style="padding: 5px;"></a>
+        </div>
+    </div>
+    
+</body>
+</html>
